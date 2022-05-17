@@ -23,6 +23,33 @@ $footer-padding: 3rem 1.5rem;
 $link: hsl(171, 100%, 41%);
 
 // Custom Styles
+.tech-item {
+    width: 12rem;
+    margin: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: rgb(249, 250, 251);
+    border-radius:0.5rem;
+    align-items: center;
+    display: flex;
+}
+.tech-img{
+    width: 3rem;
+}
+.tech-text{
+    margin-left: 1rem;
+}
+.tech-flex{    
+    display: flex;    
+    flex-direction: row;    
+    flex-wrap: wrap;    
+    justify-content: center;    
+    align-content: flex-start;    
+    align-items: center;
+}
+
 .card-gap {margin-top:1.75rem}
 .modal-trigger { cursor: pointer; }
 a.icon > strong {margin-left:.25rem}
